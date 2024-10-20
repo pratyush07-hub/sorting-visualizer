@@ -86,7 +86,7 @@ function sortArray(array){
         label: "Array",
         data: array,
         fill: false,
-        borderColor: "009688",
+        borderColor: "#009688",
         backgroundColor: colors,
         borderWidth: 1,
       },
@@ -95,12 +95,12 @@ function sortArray(array){
     options: {
         reponsive: true,
         maintainAspectRatio: false,
-        animation: {
-          duration: 2200
-        },
+        // animation: {
+        //   duration: 2200
+        // },
 
       scales: {
-        y: {
+        x: {
             ticks: {
               color: "black",
             },
@@ -113,3 +113,4 @@ function sortArray(array){
       },
     }
   });
+

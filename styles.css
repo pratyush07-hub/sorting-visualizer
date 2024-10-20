@@ -15,7 +15,7 @@ html{
     display: flex;
     justify-content: space-around;
 }
-input{
+input, .btn{
     background-color: rgb(3, 3, 71);
     color: white;
     margin-top: 70px;
